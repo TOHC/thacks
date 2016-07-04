@@ -58,7 +58,7 @@ var randy = Math.floor((Math.random() * canvasH) + 1);
     var newObject = new Object();
 newObject.x = randx;
 newObject.y = randy;
-newObject.color = "#FFFFFF"; //getRandColor();
+newObject.color = "rgba(255,255,255,"; //getRandColor();
 newObject.alpha =1;
 newObject.word = oneOrZero()
     numbers.push(newObject);

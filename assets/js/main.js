@@ -23,7 +23,7 @@
 			$banner = $('#banner'),
 			$header = $('#header');
 
-		// Disable animations/transitions until the page has loaded.
+		//Disable animations/transitions until the page has loaded.
 			/*$body.addClass('is-loading');
 
 			$window.on('load', function() {
@@ -83,7 +83,9 @@
 	});
 
     
-    $("#title").fadeIn();
+    $("#title").fadeIn(1500,function(){
+        $("#titleDesc").fadeTo(800,1);
+    });
     
     
     

@@ -21,13 +21,14 @@ html, body {
 .content .about-text {
 	color: #FFFFFF;
 	margin: 64px 0;
-	font-size: 24px;
+	font-size: 35px;
 	font-family: 'Maven Pro', sans-serif;
 	line-height: 175%;
     -webkit-transition: opacity 1s linear;
     -moz-transition: opacity 1s linear;
     -o-transition: opacity 1s linear;
     transition: opacity 1s linear;
+    text-align: center;
 }
 
 .content .about-text.hidden,
