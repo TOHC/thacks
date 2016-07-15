@@ -3378,13 +3378,13 @@
 #title{
     font-size: 47px;
     position: relative;
-    top: 50%;
+    top: 38%;
     display: none;
 }
 #titleDesc{
     opacity: 0.01;
     position: relative;
-    top: 45%;
+    top: 33%;
     height: 0px;
 }
 
