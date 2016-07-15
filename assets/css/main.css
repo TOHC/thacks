@@ -3396,6 +3396,27 @@ canvas{
     margin: 0 auto;
     width: 100%;    
 }
+
+
+#mce-EMAIL{
+    padding: 3px;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+  color: #EBEBEB;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #EBEBEB;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: #EBEBEB;
+}
+
 	#banner {
 
 		-moz-flex-direction: column;

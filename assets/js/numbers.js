@@ -40,6 +40,7 @@ function draw(){
     for(var i = 0; i < numbers.length; i++){
         ctx.fillStyle = numbers[i].color+numbers[i].alpha+")";
         ctx.fillText(numbers[i].word,numbers[i].x,numbers[i].y);
+        numbers[i].y = numbers[i].y +3;
         numbers[i].alpha = numbers[i].alpha-0.01;
         if(numbers[i].alpha < 0){
             numbers.splice(i, 1);
