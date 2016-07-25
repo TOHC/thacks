@@ -82,6 +82,7 @@ newObject.word = oneOrZero()
 
 
 
-
+if(document.body.clientWidth > 500){
 
 init();
+}

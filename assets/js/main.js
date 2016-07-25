@@ -89,9 +89,11 @@
     
     
     
-    
-    
-    
+    if(document.body.clientWidth < 500){
+        $("#title").css("font-size",30);
+        $("#titleDesc").css("font-size",14);
+        $("#titleDesc").css("margin-top",20);
+    }
     
     
     

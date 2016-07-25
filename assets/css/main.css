@@ -3382,14 +3382,16 @@
     display: none;
     width: 100%;
     text-align: center;
+    left: 2px;
 }
 #titleDesc{
     opacity: 0.01;
     position: absolute;
-    top: 43%;
+    top: 44%;
     height: 0px;
     text-align: center;
     width: 100%;
+    left: 2px;
 }
 canvas{
     position: relative;
