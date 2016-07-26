@@ -93,7 +93,7 @@
         $("#title").css("font-size",30);
         $("#titleDesc").css("font-size",14);
         $("#titleDesc").css("margin-top",20);
-        $("#northern").css("margin-left", 0);
+        $("#dotTech").css("margin-left", 0);
     }
     
     
