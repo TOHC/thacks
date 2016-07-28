@@ -94,6 +94,8 @@
         $("#titleDesc").css("font-size",14);
         $("#titleDesc").css("margin-top",20);
         $("#dotTech").css("margin-left", 0);
+        $("#bit").css("margin-left", 0);
+        $("#plux").css("margin-left", 0);
     }
     
     
