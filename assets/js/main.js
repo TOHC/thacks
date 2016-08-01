@@ -97,6 +97,7 @@
         $("#bit").css("margin-left", 0);
         $("#plux").css("margin-left", 0);
         $("#THC").css("margin-left", 0);
+        $("#lani").css("margin-left", 0);
     }
     
     
