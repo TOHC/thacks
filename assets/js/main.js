@@ -96,8 +96,7 @@
         $("#dotTech").css("margin-left", 0);
         $("#bit").css("margin-left", 0);
         $("#plux").css("margin-left", 0);
-        $("#THC").css("margin-left", 0);
-        $("#lani").css("margin-left", 0);
+        $("#FB").css("margin-left", 0);
     }
     
     
