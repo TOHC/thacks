@@ -97,6 +97,7 @@
         $("#bit").css("margin-left", 0);
         $("#lani").css("margin-left", 0);
         $("#indico").css("margin-left", 0);
+        $("#clarifai").css("margin-left", 0);
         
         $("#FB").css("margin-left", 0);
         
