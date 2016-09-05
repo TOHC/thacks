@@ -93,13 +93,6 @@
         $("#title").css("font-size",30);
         $("#titleDesc").css("font-size",14);
         $("#titleDesc").css("margin-top",20);
-        $("#dotTech").css("margin-left", 0);
-        $("#bit").css("margin-left", 0);
-        $("#lani").css("margin-left", 0);
-        $("#indico").css("margin-left", 0);
-        
-        $("#FB").css("margin-left", 0);
-        
     }
     
     
