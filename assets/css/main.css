@@ -3378,7 +3378,7 @@
 #title{
     font-size: 47px;
     position: absolute;
-    top: 38%;
+    top: 35%;
     display: none;
     width: 100%;
     text-align: center;
@@ -3387,11 +3387,20 @@
 #titleDesc{
     opacity: 0.01;
     position: absolute;
-    top: 44%;
+    top: 41%;
     height: 0px;
     text-align: center;
     width: 100%;
     left: 2px;
+}
+#register{
+	opacity: 0.01;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 0;
+	text-align: center;
+	z-index: 2;
 }
 canvas{
     position: relative;
@@ -3523,10 +3532,10 @@ canvas{
 		  	opacity: 0;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 500px) {
 
 			#banner {
-				padding: 7em 3em 5em 3em ;
+				padding: 7em 0em 5em 0em;
 				height: auto;
 				min-height: 0;
 			}
@@ -3542,6 +3551,19 @@ canvas{
 				#banner .more {
 					display: none;
 				}
+
+			#title {
+				font-size: 30px;
+			}
+
+			#titleDesc {
+				font-size: 14px;
+				margin-top: 20px;
+			}
+
+			#register {
+				margin-top: 50px;
+			}
 
 		}
 
