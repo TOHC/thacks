@@ -94,9 +94,12 @@
         $("#titleDesc").css("font-size",14);
         $("#titleDesc").css("margin-top",20);
         $("#dotTech").css("margin-left", 0);
+        $("#dotTech").css("margin-top", -20);
         $("#bit").css("margin-left", 0);
         $("#lani").css("margin-left", 0);
         $("#indico").css("margin-left", 0);
+        $("#muse").css("margin-left", 0);
+        $("#muse").css("margin-top", -10);
         
         $("#FB").css("margin-left", 0);
         
