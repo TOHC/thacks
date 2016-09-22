@@ -12,6 +12,7 @@
 			large:	'(max-width: 1280px)',
 			medium:	'(max-width: 980px)',
 			small:	'(max-width: 736px)',
+			small2: '(max-width: 500px)',
 			xsmall:	'(max-width: 480px)'
 		});
 
@@ -33,14 +34,14 @@
 			});*/
 
 		// Mobile?
-			if (skel.vars.mobile)
+			if (document.body.clientWidth < 500)
 				$body.addClass('is-mobile');
 			else
 				skel
-					.on('-medium !medium', function() {
+					.on('-small2 !small2', function() {
 						$body.removeClass('is-mobile');
 					})
-					.on('+medium', function() {
+					.on('+small2', function() {
 						$body.addClass('is-mobile');
 					});
 
@@ -83,8 +84,10 @@
 	});
 
     
-    $("#title").fadeIn(1500,function(){
-        $("#titleDesc").fadeTo(800,1);
+    $("#title").fadeIn(800,function(){
+        $("#titleDesc").fadeTo(800,1,function(){
+            $("#register").fadeTo(800,1);
+        });
     });
     
     
@@ -93,6 +96,7 @@
         $("#title").css("font-size",30);
         $("#titleDesc").css("font-size",14);
         $("#titleDesc").css("margin-top",20);
+
         $("#dotTech").css("margin-left", 0);
         $("#dotTech").css("margin-top", -20);
         $("#bit").css("margin-left", 0);
@@ -100,10 +104,14 @@
         $("#indico").css("margin-left", 0);
         $("#muse").css("margin-left", 0);
         $("#muse").css("margin-top", -10);
+        $("#clarifai").css("margin-top", 0);
         
         $("#FB").css("margin-left", 0);
         
     }
+
+        $("#register").css("margin-top",50);
+    
     
     
     
