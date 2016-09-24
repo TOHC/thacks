@@ -105,6 +105,8 @@
         $("#muse").css("margin-left", 0);
         $("#muse").css("margin-top", -10);
         $("#clarifai").css("margin-top", 0);
+        $("#sultanofsamosas").css("margin-left", 0);
+        $("#pizzapizza").css("margin-left", 0);
         
         $("#FB").css("margin-left", 0);
         
