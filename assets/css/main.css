@@ -3839,3 +3839,9 @@ canvas{
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+.sponsor-images img {
+	margin: 16px;
+	vertical-align: middle;
+	max-height: 200px;
+}

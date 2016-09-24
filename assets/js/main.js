@@ -82,45 +82,17 @@
 			}
 
 	});
-
-    
+	
     $("#title").fadeIn(800,function(){
         $("#titleDesc").fadeTo(800,1,function(){
             $("#register").fadeTo(800,1);
         });
     });
-    
-    
-    
+
     if(document.body.clientWidth < 500){
         $("#title").css("font-size",30);
         $("#titleDesc").css("font-size",14);
         $("#titleDesc").css("margin-top",20);
-
-        $("#dotTech").css("margin-left", 0);
-        $("#dotTech").css("margin-top", -20);
-        $("#bit").css("margin-left", 0);
-        $("#lani").css("margin-left", 0);
-        $("#indico").css("margin-left", 0);
-        $("#muse").css("margin-left", 0);
-        $("#muse").css("margin-top", -10);
-        $("#clarifai").css("margin-top", 0);
-        $("#sultanofsamosas").css("margin-left", 0);
-        $("#pizzapizza").css("margin-left", 0);
-        
-        $("#FB").css("margin-left", 0);
-        
-    }
-
         $("#register").css("margin-top",50);
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    }
 })(jQuery);
