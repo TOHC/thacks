@@ -27,23 +27,78 @@ h1 {
 	font-size: 3em;
 	letter-spacing: 0.2em;
 	color: white;
+	margin-bottom: 1em;
 }
 
 input {
-	padding: 5px;
-	font-size: 0.8em;
+	padding: 10px;
+	font-size: 1em;
 	letter-spacing: 0.1em;
 	color: #ddd;
 	background-color: transparent;
 	border: 1px #ddd solid;
-	border-radius: 2px;
 }
 
 input[type=email] {
-	width: 250px;
-	margin-right: 10px;
+	width: 400px;
+	padding-right: 110px;
+	border-radius: 10px;
+}
+
+input[type=submit] {
+	width: 120px;
+	margin-left: -125px;
+	border: none;
+	border-left: 1px #ddd solid;
+	cursor: pointer;
+}
+
+input[type=submit]:focus {
+	color: #bbb;
 }
 
 *:focus {
 	outline: none;
+}
+
+@media (max-width: 550px) {
+	h1 {
+		font-size: 2.5em;
+	}
+
+	input {
+		padding: 8px;
+		font-size: 0.9em;
+	}
+
+	input[type=email] {
+		width: 300px;
+		padding-right: 108px;
+	}
+
+	input[type=submit] {
+		width: 100px;
+		margin-left: -104px;
+	}
+}
+
+@media (max-width: 450px) {
+	h1 {
+		font-size: 2.25em;
+	}
+
+	input {
+		padding: 7px;
+		font-size: 0.8em;
+	}
+
+	input[type=email] {
+		width: 200px;
+		padding-right: 103.5px;
+	}
+
+	input[type=submit] {
+		width: 85px;
+		margin-left: -88.5px;
+	}
 }
