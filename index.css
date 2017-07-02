@@ -1,0 +1,49 @@
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.8), 
+		rgba(0, 0, 0, 0.8)
+	), url('background.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width: 100%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: 0.2em;
+	color: white;
+}
+
+input {
+	padding: 5px;
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+	color: #ddd;
+	background-color: transparent;
+	border: 1px #ddd solid;
+	border-radius: 2px;
+}
+
+input[type=email] {
+	width: 250px;
+	margin-right: 10px;
+}
+
+*:focus {
+	outline: none;
+}
