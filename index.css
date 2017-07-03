@@ -37,7 +37,7 @@ h2 {
 }
 
 form {
-	margin-top: 3em;
+	margin: 3em 0;
 }
 
 input {
@@ -67,6 +67,16 @@ input[type=submit]:focus {
 	color: #bbb;
 }
 
+.button {
+	text-decoration: none;
+	color: #bbb;
+	margin: 0 1em;
+	padding: 8px 16px;
+	border: 1px solid #bbb;
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
+}
+
 *:focus {
 	outline: none;
 }
@@ -94,6 +104,12 @@ input[type=submit]:focus {
 		width: 100px;
 		margin-left: -104px;
 	}
+
+	.button {
+		margin: 0 1em;
+		padding: 7px 14px;
+		font-size: 1em;
+	}
 }
 
 @media (max-width: 450px) {
@@ -118,5 +134,11 @@ input[type=submit]:focus {
 	input[type=submit] {
 		width: 85px;
 		margin-left: -88.5px;
+	}
+
+	.button {
+		margin: 0 0.9em;
+		padding: 6px 12px;
+		font-size: 0.8em;
 	}
 }
