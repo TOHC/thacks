@@ -136,8 +136,26 @@ input[type=submit]:focus {
 	}
 }
 
-.about {
+h3 {
+	font-size: 2em;
+}
+
+.about .container {
+	padding: 2em;
+	width: 35%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	color: #eee;
+}
+
+.contact {
 	padding: 2em;
 	background-color: #111;
 	color: #eee;
+}
+
+.sponsors {
+	padding: 2em;
+	background-color: #eee;
+	color: #111;
 }
