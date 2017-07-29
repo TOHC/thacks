@@ -1,23 +1,16 @@
-html {
-	height: 100%;
-}
-
 body {
-	min-height: 100%;
 	margin: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: linear-gradient(
-		rgba(0, 0, 0, 0.8), 
-		rgba(0, 0, 0, 0.8)
-	), url('background.jpg');
-	background-size: cover;
-	background-position: 50% 50%;
 	font-family: 'Roboto', sans-serif;
 }
 
-.container {
+header {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header .container {
 	width: 100%;
 	padding-bottom: 5%;
 	text-align: center;
@@ -141,4 +134,10 @@ input[type=submit]:focus {
 		padding: 6px 12px;
 		font-size: 0.8em;
 	}
+}
+
+.about {
+	padding: 2em;
+	background-color: #111;
+	color: #eee;
 }
