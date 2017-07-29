@@ -137,7 +137,7 @@ input[type=submit]:focus {
 }
 
 h3 {
-	font-size: 2em;
+	font-size: 3em;
 }
 
 .about .container {
@@ -148,14 +148,29 @@ h3 {
 	color: #eee;
 }
 
-.contact {
-	padding: 2em;
-	background-color: #111;
-	color: #eee;
+.about h4 {
+	font-size: 2em;
+	margin: 2em 0;
 }
 
 .sponsors {
 	padding: 2em;
 	background-color: #eee;
 	color: #111;
+	text-align: center;
 }
+
+.faq {
+	padding: 2em;
+	background-color: #111;
+	color: #eee;
+	text-align: center;
+}
+
+.contact {
+	padding: 2em;
+	background-color: #eee;
+	color: #111;
+	text-align: center;
+}
+
