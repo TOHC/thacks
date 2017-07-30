@@ -192,3 +192,41 @@ p {
   background: #29B6F6;
   background: rgba(41, 182, 246, 0.5);
 }
+
+h3 {
+	font-size: 3em;
+}
+
+.about .container {
+	padding: 2em;
+	width: 35%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	color: #eee;
+}
+
+.about h4 {
+	font-size: 2em;
+	margin: 2em 0;
+}
+
+.sponsors {
+	padding: 2em;
+	background-color: #eee;
+	color: #111;
+	text-align: center;
+}
+
+.faq {
+	padding: 2em;
+	background-color: #111;
+	color: #eee;
+	text-align: center;
+}
+
+.contact {
+	padding: 2em;
+	background-color: #eee;
+	color: #111;
+	text-align: center;
+}
