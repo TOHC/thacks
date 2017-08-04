@@ -3,7 +3,7 @@ body {
   height: 100%;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background-color: black;
+  background-color: #212121;
   webkit-tap-highlight-color: rgba(41, 182, 246, 0.5);
 }
 html {
@@ -36,27 +36,25 @@ p {
 }
 
 #sponsors {
-  background: repeating-linear-gradient(
-    45deg,
-    #01579B,
-    #01579B 50px,
-    #000 50px,
-    #000 100px
-  );
+background-color: #FAFAFA;
   padding: 5%;
+
+}
+#sponsors h2{
+    color: #212121;
 }
 
 #faq{
   padding: 5%;
   min-width: 100vw;
-  background-color:black;
-background-image:
-radial-gradient(#29B6F6, rgba(41, 182, 246,.2) 2px, transparent 40px),
-radial-gradient(#29B6F6, rgba(41, 182, 246,.15) 1px, transparent 30px),
-radial-gradient(#29B6F6, rgba(41, 182, 246,.1) 2px, transparent 40px),
-radial-gradient(rgba(41, 182, 246,.4), rgba(41, 182, 246,.1) 2px, transparent 30px);
-background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+
+    background: repeating-linear-gradient(
+      45deg,
+      #001e36,
+      #001e36 50px,
+      #000 50px,
+      #000 100px
+    );
 }
 @media (min-width: 768px) {
   p {
@@ -115,7 +113,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   border-radius: 0;
   padding: 20px;
   border-color: #29B6F6;
-  color: white; 
+  color: white;
 }
 
 .btn {
@@ -202,13 +200,6 @@ h3 {
 	font-size: 3em;
 }
 
-.about .container {
-	padding: 2em;
-	width: 35%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.6);
-	color: #eee;
-}
 
 .about h4 {
 	font-size: 2em;
@@ -216,22 +207,35 @@ h3 {
 }
 
 .sponsors {
-	padding: 2em;
-	background-color: #eee;
+    display: inline;
+	padding: 0;
+	background-color: #fafafa;
 	color: #111;
 	text-align: center;
 }
-
-.faq {
-	padding: 2em;
-	background-color: #111;
-	color: #eee;
-	text-align: center;
+img{
+    margin: 0;
 }
 
-.contact {
-	padding: 2em;
-	background-color: #eee;
-	color: #111;
-	text-align: center;
+.other-small{
+    width: 15%;
+}
+
+.other{
+    width: 20%;
+}
+.bronze{
+    width: 25%;
+}
+
+.silver{
+    width: 33.33333%;
+}
+
+.gold{
+    width: 49%;
+}
+
+.platinum{
+    width: 80%;
 }
