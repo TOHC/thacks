@@ -35,15 +35,6 @@ p {
   -webkit-box-shadow:inset 0px 0px 0px 10px #29B6F6;
 }
 
-#sponsors {
-background-color: #FAFAFA;
-  padding: 5%;
-
-}
-#sponsors h2{
-    color: #212121;
-}
-
 #faq{
   padding: 5%;
   min-width: 100vw;
@@ -206,36 +197,38 @@ h3 {
 	margin: 2em 0;
 }
 
-.sponsors {
-    display: inline;
-	padding: 0;
+#sponsors {
+  display: inline;
+  padding: 0;
 	background-color: #fafafa;
 	color: #111;
 	text-align: center;
 }
+
+#sponsors h2 {
+    color: #212121;
+}
+
+#sponsors img {
+    padding: 2.5%;
+}
+
 img{
     margin: 0;
 }
 
-.other-small{
+.bronze{
     width: 15%;
 }
 
-.other{
-    width: 20%;
-}
-.bronze{
-    width: 25%;
-}
-
 .silver{
-    width: 33.33333%;
+    width: 20%;
 }
 
 .gold{
-    width: 49%;
+    width: 25%;
 }
 
 .platinum{
-    width: 80%;
+    width: 30%;
 }
