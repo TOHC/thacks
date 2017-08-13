@@ -39,9 +39,12 @@ p {
   padding: 5%;
 }
 @media (min-width: 768px) {
+  .panel{
+    font-size: 13px;
+  }
   p {
     margin: 0 0 35px;
-    font-size: 20px;
+    font-size: 13px;
     line-height: 1.6;
   }
 }
@@ -257,6 +260,7 @@ div.panel {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    font-size: 5px;
 }
 
 button.accordion:after {
