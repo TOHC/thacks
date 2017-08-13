@@ -46,15 +46,6 @@ background-color: #FAFAFA;
 
 #faq{
   padding: 5%;
-  min-width: 100vw;
-
-    background: repeating-linear-gradient(
-      45deg,
-      #001e36,
-      #001e36 50px,
-      #000 50px,
-      #000 100px
-    );
 }
 @media (min-width: 768px) {
   p {
