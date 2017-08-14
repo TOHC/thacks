@@ -156,7 +156,8 @@ p {
 @media (max-width: 650px) {
   body {
     font-size: 12px; }
-
+  h1 {
+    text-align: center; }
   .section {
     padding: 1.5em 0; }
 
@@ -168,8 +169,10 @@ p {
 
   .sponsor-items .sponsor {
     width: 44%;
-    max-height: 5em}
+    max-heig}
     .sponsor-items .sponsor.bronze {
-      width: 25%; } }
+      width: 25%; }
+
+  }
 
 /*# sourceMappingURL=main.css.map */
