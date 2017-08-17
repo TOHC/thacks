@@ -15,6 +15,7 @@ body {
 }
 h1 {
     color: $brand;
+    text-align: center
 }
 .accent {
     color: $brand;
@@ -137,20 +138,35 @@ p {
         font-size: 14px;
         text-decoration: none;
         background-size: contain;
-        width: 27%;
         display: inline-block;
         background-position: center center;
         background-repeat: no-repeat;
-        height: 5em;
-        margin: 2em 3%;
+        margin: 1em 2%;
+        &.platinum {
+            height: 11em;
+            width: 46%
+        }
+        &.gold {
+            height: 9em;
+            width: 35%
+        }
+        &.silver {
+            height: 4em;
+            width: 29%;
+            /* Hack (for .tech only) */
+            margin-bottom: 2em;
+        }
+        &.bronze {
+            height: 3em;
+            width: 29%;
+        }
+        &.small {
+            height: 3em;
+            width: 20%;
+        }
         &:hover {
             text-decoration: none;
             opacity: 0.6;
-        }
-        &.small {
-            width: 10%;
-            margin: 1em 2%;
-            height: 3em;
         }
     }
 }
@@ -179,8 +195,20 @@ p {
     }
     .sponsor-items {
         .sponsor {
-            width: 44%;
+            &.platinum {
+                height: 6em;
+            }
+            &.gold {
+                height: 5em;
+            }
+            &.silver {
+                height: 4em;
+            }
+            &.bronze {
+                height: 3em;
+            }
             &.small {
+                height: 3em;
                 width: 29%;
             }
         }
