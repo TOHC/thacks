@@ -8,7 +8,10 @@ body, html {
     padding: 0;
     font-size: 14px;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
 }
 body {
     padding-bottom: 6em;
@@ -67,6 +70,10 @@ p {
         background: saturate($brand, 10%);
     }
 }
+.button-lg {
+    font-size: 16px;
+    padding: 1em 1.5em;
+}
 .input {
     padding: 1em;
     font-family: 'Montserrat', sans-serif;
@@ -113,8 +120,8 @@ p {
             margin: 0 0 0.3em 0;
         }
         h3 {
-            font-size: 1.5em;
-            margin: 0 0 1.75em 0;
+            font-size: 2em;
+            margin: 0 0 1em 0;
             font-weight: 300;
         }
         .input-group .input {
