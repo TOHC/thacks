@@ -141,6 +141,44 @@ p {
     background-size: cover;
 }
 
+.map-col {
+  padding-top: 10vh;
+  padding-bottom: 10vh
+}
+
+/* -- Table -- */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+table, th, td {
+    border: 2px solid white;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+  background-color: $brand;
+  color: white;
+  height: 25px;
+  text-align: center;
+}
+
+td {
+    height: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.hardware td, th{
+  text-align: center;
+
+}
 /* -- Sponsors -- */
 .sponsor-items {
     font-size: 0;
@@ -181,6 +219,7 @@ p {
         }
     }
 }
+
 
 /* -- Frequently Asked -- */
 .freq {
